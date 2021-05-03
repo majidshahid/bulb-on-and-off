@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main"></div>
+    <div class="one">
+        <h1>BULB ON AND OFF</h1>
+        <img src="off.jpg" alt="bulb off" id="img"> <br>
+        <button onclick="document.getElementById('img').src='on.jpg'">ON</button>  <button onclick="document.getElementById('img').src='OFF.jpg'">OFF</button>
+    </div>
+    <div class="one">
+        <h1>BULB ON and off</h1>
+       <img src="off.jpg" alt="bulb" id="one" onmouseover="on(this)" onmouseout="off(this)">
+
+    </div>
+    <div class="one">
+        <h1>BULB on and off single button</h1>
+        <img src="off.jpg" alt="bulb off" id="img1">
+        <button onclick="mj()">ON/OFF</button>
+    </div>
+</div>
+</body>
+<script src="app.js"> </script>
+</html>
